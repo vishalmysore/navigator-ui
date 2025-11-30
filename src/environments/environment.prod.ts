@@ -1,6 +1,6 @@
 export const environment = {
     production: true,
-    apiUrl: 'https://your-production-api.com',
+    apiUrl: 'https://vishalmysore-navigator-server.hf.space',
     apiEndpoints: {
         chat: '/api/chat',
         ragChat: '/api/rag-chat',

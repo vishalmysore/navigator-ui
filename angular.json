@@ -53,7 +53,8 @@
                   "maximumError": "4kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/navigator-ui/"
             },
             "development": {
               "optimization": false,
@@ -97,6 +98,13 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/navigator-ui/",
+            "repo": "https://github.com/vishalmysore/navigator-ui.git"
           }
         }
       }
